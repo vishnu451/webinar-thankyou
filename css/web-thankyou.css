@@ -37,23 +37,36 @@ h3.ty-card1-h3{
     font-size: 20px;
     margin-bottom: 30px;
 }
+h3.ty-card1-text{
+    font-size: 20px;
+    margin-bottom:50px;
+}
 .ty-card1{
     background: #fff;
     border: 2px solid #fff;
     box-shadow: 2px 2px 75px 0 #dcdcdc;
     border-radius: 5px;
     height: 170px;
+    width: 94%;
+    max-width: 350px;
     padding: 10px;
-    margin-bottom: 35px;
+    margin: 25px auto;
+    
 }
 .ty-card2{
-    height: 160px;
+    height: 170px;
+    width: 94%;
+    max-width: 350px;
     padding: 10px;
+    margin: 25px auto;
     text-align: center;
 }
 p.ty-cards-para{
     font-size: 18px;
     margin-bottom: 25px;
+}
+a.ty-card1-btn{
+    margin-left: 190px;
 }
 a.ty-card2-btn{
     background:#0093dd;
@@ -70,4 +83,19 @@ a.ty-card2-btn{
 }
 img.webinar-social-icon{
     width:15%;
+}
+@media only screen and (min-width: 700px) {
+.web-ty-flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+img.webinar-social-icon {
+    width: 4%;
+}
+p.web-ty-para2 {
+    font-size: 20px;
+}
+section.webinar-ty-section-1 {
+   padding: 0px 0px 40px;
+}
 }
