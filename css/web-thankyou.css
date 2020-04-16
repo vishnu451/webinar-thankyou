@@ -83,6 +83,7 @@ a.ty-card2-btn{
 }
 img.webinar-social-icon{
     width:15%;
+    margin-right:5px;
 }
 @media only screen and (min-width: 700px) {
 .web-ty-flex-container{
